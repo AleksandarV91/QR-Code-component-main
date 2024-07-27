@@ -1,0 +1,52 @@
+/* Universal Styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(216, 15%, 48%);
+    background-color: hsl(212, 45%, 89%);
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    padding: 14px;
+    text-align: center;
+}
+
+.card-hero img{
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+}
+
+.card-text{
+    padding: 16px;
+}
+
+h1{
+    font-size: 22px;
+    color: #1F314F;
+    margin-bottom: 15px;
+}
